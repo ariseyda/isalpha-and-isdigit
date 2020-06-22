@@ -45,7 +45,7 @@ printf("The loop is exited.");
 int r_function(int x){
 	
 	int y=isalpha(x);
-	if(x==0){
+	if(y==0){
 		return 0;
 	}
 	else{
