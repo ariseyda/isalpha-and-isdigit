@@ -17,7 +17,7 @@ int main(){
 char n;
 
 while(1){
-	printf("Please enter a character:");
+    printf("Please enter a character:");
     scanf(" %c",&n); 
     int h=isdigit(n);
     if(h==0){
